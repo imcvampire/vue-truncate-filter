@@ -1,6 +1,6 @@
 (function () {
 
-  vueTruncate.install = function (Vue) {
+  VueTruncate.install = function (Vue) {
     Vue.filter('truncate', function (value, length, clamp) {
       clamp = clamp || '...'
 
@@ -15,8 +15,8 @@
   } else if (typeof define == "function" && define.amd) {
     define([], function(){ return install })
   } else if (window.Vue) {
-    window.vueTruncate = vueTruncate
-    Vue.use(vueTruncate)
+    window.VueTruncate = VueTruncate
+    Vue.use(VueTruncate)
   }
 
 })()
