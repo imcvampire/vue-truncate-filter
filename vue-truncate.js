@@ -1,8 +1,8 @@
 ;(function () {
 
-  var VueTruncate = {}
+  var vueTruncate = {}
 
-  VueTruncate.install = function (Vue) {
+  vueTruncate.install = function (Vue) {
     
     /**
      * @param {String} value
@@ -20,12 +20,12 @@
   }
 
   if (typeof exports == "object") {
-    module.exports = install
+    module.exports = vueTruncate
   } else if (typeof define == "function" && define.amd) {
-    define([], function(){ return install })
+    define([], function(){ return vueTruncate })
   } else if (window.Vue) {
-    window.VueTruncate = VueTruncate
-    Vue.use(VueTruncate)
+    window.VueTruncate = vueTruncate
+    Vue.use(vueTruncate)
   }
 
 })()
