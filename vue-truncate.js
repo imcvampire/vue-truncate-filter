@@ -1,9 +1,11 @@
 (function () {
 
   vueTruncate.install = function (Vue) {
-    Vue.filter('truncate', function (value, length) {
+    Vue.filter('truncate', function (value, length, clamp) {
+      clamp = clamp || '...'
+
       return value.length > length 
-        ? value.slice(value, length - 3) + '...'
+        ? value.slice(value, length - clamp.length) + clamp
         : value
 	  })
   }

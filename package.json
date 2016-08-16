@@ -1,5 +1,5 @@
 {
-  "name": "@imcvampire/vue-truncate",
+  "name": "vue-filter-truncate",
   "version": "0.1.0",
   "description": "A filter for VueJs to truncate string",
   "main": "vue-truncate.js",
