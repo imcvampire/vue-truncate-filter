@@ -1,6 +1,15 @@
-(function () {
+;(function () {
+
+  var VueTruncate = {}
 
   VueTruncate.install = function (Vue) {
+    
+    /**
+     * @param {String} value
+     * @param {Number} length
+     * @param {String} clamp
+     */
+
     Vue.filter('truncate', function (value, length, clamp) {
       clamp = clamp || '...'
 
