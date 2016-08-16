@@ -1,6 +1,6 @@
 {
   "name": "vue-truncate-filter",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A filter for VueJs to truncate string",
   "main": "vue-truncate.js",
   "repository": {

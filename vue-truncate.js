@@ -5,9 +5,11 @@
   vueTruncate.install = function (Vue) {
     
     /**
+     * 
      * @param {String} value
      * @param {Number} length
      * @param {String} clamp
+     * 
      */
 
     Vue.filter('truncate', function (value, length, clamp) {
@@ -25,7 +27,7 @@
     define([], function(){ return vueTruncate })
   } else if (window.Vue) {
     window.VueTruncate = vueTruncate
-    Vue.use(vueTruncate)
+    Vue.use(VueTruncate)
   }
 
 })()
