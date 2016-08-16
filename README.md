@@ -20,7 +20,7 @@ A filter for Vuejs to truncate string
 ## Usage:
 
  ```html
-  {{ text | truncate 100 '....'}}
+  {{ text | truncate 100 '....' }}
  ```
  
 ## Params:
