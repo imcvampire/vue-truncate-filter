@@ -1,11 +1,8 @@
 {
-  "name": "vue-truncate",
+  "name": "@imcvampire/vue-truncate",
   "version": "0.1.0",
   "description": "A filter for VueJs to truncate string",
   "main": "vue-truncate.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/imcvampire/vue-truncate.git"
