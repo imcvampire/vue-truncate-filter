@@ -4,9 +4,9 @@ A filter for Vuejs to truncate string
 
 ## Install:
 
- ### CommonJS
+  ### CommonJS
 
- - Available through npm as `vue-filter-truncate`.
+ Available through npm as `vue-filter-truncate`.
 
   ``` js
   var VueTouch = require('vue-filter-truncate')
