@@ -1,4 +1,4 @@
-# vue-filter-truncate
+# vue-truncate-filter
 
 A filter for Vuejs to truncate string
 
