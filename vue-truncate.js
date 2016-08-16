@@ -1,7 +1,7 @@
 (function () {
 
-  function install (Vue) {
-	  Vue.filter('truncate', function (value, length) {
+  vueTruncate.install = function (Vue) {
+    Vue.filter('truncate', function (value, length) {
       return value.length > length 
         ? value.slice(value, length - 3) + '...'
         : value
@@ -13,7 +13,8 @@
   } else if (typeof define == "function" && define.amd) {
     define([], function(){ return install })
   } else if (window.Vue) {
-    Vue.use(install)
+    window.vueTruncate = vueTruncate
+    Vue.use(vueTruncate)
   }
 
 })()
