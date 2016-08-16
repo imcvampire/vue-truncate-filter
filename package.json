@@ -1,11 +1,11 @@
 {
   "name": "vue-truncate-filter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A filter for VueJs to truncate string",
   "main": "vue-truncate.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imcvampire/vue-truncate.git"
+    "url": "git+https://github.com/imcvampire/vue-truncate-filter.git"
   },
   "keywords": [
     "VueJS",
@@ -15,7 +15,7 @@
   "author": "Nguyen Quoc Anh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/imcvampire/vue-truncate/issues"
+    "url": "https://github.com/imcvampire/vue-truncate-filter/issues"
   },
-  "homepage": "https://github.com/imcvampire/vue-truncate#readme"
+  "homepage": "https://github.com/imcvampire/vue-truncate-filter#readme"
 }
