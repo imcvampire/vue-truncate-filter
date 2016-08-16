@@ -3,7 +3,8 @@
 A filter for Vuejs to truncate string
 
 ## Install:
- #### CommonJS
+
+ ### CommonJS
 
  - Available through npm as `vue-filter-truncate`.
 
@@ -12,7 +13,7 @@ A filter for Vuejs to truncate string
   Vue.use(VueTruncate)
   ```
 
- #### Direct include
+ ### Direct include
 
  - You can also directly include it with a `<script>` tag when you have Vue already included globally. It will automatically install itself, and will add a global `VueTruncate`.
 
