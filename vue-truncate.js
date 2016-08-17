@@ -6,7 +6,7 @@
     
     /**
      * 
-     * @param {String} value
+     * @param {String} text
      * @param {Number} length
      * @param {String} clamp
      * 
