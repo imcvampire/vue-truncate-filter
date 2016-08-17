@@ -12,12 +12,12 @@
      * 
      */
 
-    Vue.filter('truncate', function (value, length, clamp) {
+    Vue.filter('truncate', function (text, length, clamp) {
       clamp = clamp || '...'
 
-      return value.length > length 
-        ? value.slice(value, length - clamp.length) + clamp
-        : value
+      return text.length > length 
+        ? text.slice(0, length - clamp.length) + clamp
+        : text
 	  })
   }
 
