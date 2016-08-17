@@ -6,7 +6,7 @@ A filter for Vuejs to truncate string
 
 ### CommonJS
 
- Available through npm as `vue-truncate-filter`.
+ Available through npm as `vue-truncate-filter`: `npm install vue-truncate-filter --save`
 
   ``` js
   var VueTouch = require('vue-truncate-filter')
