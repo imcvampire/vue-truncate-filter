@@ -9,7 +9,7 @@ A filter for Vuejs to truncate string
  Available through npm as `vue-truncate-filter`: `npm install vue-truncate-filter --save`
 
   ``` js
-  var VueTouch = require('vue-truncate-filter')
+  var VueTruncate = require('vue-truncate-filter')
   Vue.use(VueTruncate)
   ```
 
