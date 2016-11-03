@@ -14,6 +14,7 @@
 
     Vue.filter('truncate', function (text, length, clamp) {
       clamp = clamp || '...';
+      length = length || 30;
 
       return text.length > length 
         ? text.slice(0, length - clamp.length) + clamp
