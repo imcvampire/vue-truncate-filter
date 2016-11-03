@@ -24,9 +24,8 @@ A filter for Vuejs to truncate string
  ```
  
 ## Params:
-  @length (Number): Text will be truncated if it's length is more than this param.
-  
-  @clamp (String) (default: `...`): It will be added to end of text if it's truncated.
+  - length (Number): Text will be truncated if it's length is more than this param.
+  - clamp (String) (default: `...`): It will be added to end of text if it's truncated.
   
 ## License
 
