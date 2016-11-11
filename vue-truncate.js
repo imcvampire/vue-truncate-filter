@@ -16,10 +16,16 @@
       clamp = clamp || '...';
       length = length || 30;
 
-      return text.length > length 
-        ? text.slice(0, length - clamp.length) + clamp
-        : text
-      });
+      let truncateText = text.slice(0, length - clamp.length)
+      let posLast = truncateText.length - 1
+
+      while (truncateText[posLast] === ' ' || truncateText[posLast] === clamp[0])
+	--posLast
+
+      truncateText =  truncateText.slice(0, posLast + 1)
+
+      return truncateText + (text.length > length ? clamp : '')
+    });
   }
 
   if (typeof exports == "object") {
