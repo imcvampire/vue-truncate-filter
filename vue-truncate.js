@@ -16,15 +16,15 @@
       clamp = clamp || '...';
       length = length || 30;
 
-      let truncateText = text.slice(0, length - clamp.length)
-      let posLast = truncateText.length - 1
+      var tcText = text.slice(0, length - clamp.length);
+      var last = tcText.length - 1;
 
-      while (truncateText[posLast] === ' ' || truncateText[posLast] === clamp[0])
-	--posLast
+      while (tcText[last] !== ' ' && tcText[last] !== clamp[0])
+	--last
 
-      truncateText =  truncateText.slice(0, posLast + 1)
+      tcText =  tcText.slice(0, last + 1)
 
-      return truncateText + (text.length > length ? clamp : '')
+      return tcText + (text.length > length ? clamp : '')
     });
   }
 
