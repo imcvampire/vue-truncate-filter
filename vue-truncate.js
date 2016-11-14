@@ -16,7 +16,7 @@
       clamp = clamp || '...';
       length = length || 30;
       
-      if (text.length < length) return text;
+      if (text.length <= length) return text;
 
       var tcText = text.slice(0, length - clamp.length);
       var last = tcText.length - 1;
