@@ -20,11 +20,11 @@
       var last = tcText.length - 1;
 
       while (last > 0 && tcText[last] !== ' ' && tcText[last] !== clamp[0])
-	--last
+	last -= 1;
 
-      tcText =  tcText.slice(0, last)
+      tcText =  tcText.slice(0, last);
 
-      return tcText + (text.length > length ? clamp : '')
+      return tcText + (text.length > length ? clamp : '');
     });
   }
 
