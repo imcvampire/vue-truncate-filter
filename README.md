@@ -1,5 +1,7 @@
 # vue-truncate-filter
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/imcvampire/vue-truncate-filter.svg)](https://greenkeeper.io/)
+
 A filter for Vuejs to truncate string
 
 ## Install:
