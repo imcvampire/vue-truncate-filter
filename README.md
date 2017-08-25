@@ -1,5 +1,7 @@
 # vue-truncate-filter
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/imcvampire/vue-truncate-filter.svg)](https://greenkeeper.io/)
+
 A filter for Vuejs to truncate string
 
 ## Install:
@@ -19,10 +21,14 @@ A filter for Vuejs to truncate string
 
 ## Usage:
 
+### Vue 1.x
  ```html
   {{ text | truncate 100 '....' }}
  ```
- 
+### Vue 2.x
+ ```html
+  {{ text | truncate(100) }}
+ ```
 ## Params:
 - length (Number): Text will be truncated if it's length is more than this param.
   
