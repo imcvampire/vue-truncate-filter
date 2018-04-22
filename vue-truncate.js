@@ -13,6 +13,7 @@
      */
 
     Vue.filter('truncate', function (text, length, clamp) {
+      text = text || ''
       clamp = clamp || '...';
       length = length || 30;
       
